@@ -141,10 +141,12 @@ form {
         width: 40%;
     }
     .tittle {
-        font-size: 6em;
+        font-size: 5.5em;
     }
     .form__cont {
-        height: 30%;
+        height: 16%;
+        justify-content: center;
+        gap: 0px;
     }
     .form__label {
         font-size: 1.7em;
@@ -161,7 +163,7 @@ form {
     .form__button {
         max-width: 400px;
         width: 50%;
-        height: 20%;
+        height: 90px;
         font-size: 1.8em;
         font-weight: 100;
     }
