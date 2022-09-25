@@ -71,7 +71,6 @@ form {
 }
 .form__input {
     min-width: 180px;
-    width: 60%;
     height: 35px;
 
     border-radius: 15px;
@@ -127,19 +126,19 @@ form {
 }
 @media (min-width:1024px) {
     .contenedor {
-        width: 70%;
+        width: 60%;
     }
 }
 @media (min-width:1400px) {
     .contenedor {
-        width: 60%;
+        width: 50%;
     }
 }
 
 @media (min-width:1600px) {
     .contenedor {
-        height: 70%;
-        width: 70%;
+        height: 90%;
+        width: 40%;
     }
     .tittle {
         font-size: 6em;
@@ -153,13 +152,15 @@ form {
     .form__input {
         font-size: 1.5em;
         height: 50px;
-        width: 100%;
+        width: 50%;
+        max-width: 500px;
     }
     .form__label-radio {
         font-size: 1.7em;
     }
     .form__button {
-        width: 100%;
+        max-width: 400px;
+        width: 50%;
         height: 20%;
         font-size: 1.8em;
         font-weight: 100;
