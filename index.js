@@ -31,8 +31,6 @@ let cosas = () => {
 
 }
 cosas()
-console.log(productos);
-
 
 let carritoDeCompras = JSON.parse(localStorage.getItem("listaDeCompras")) || [];
 console.log(carritoDeCompras);
